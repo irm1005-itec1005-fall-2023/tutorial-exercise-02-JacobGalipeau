@@ -25,11 +25,170 @@
       }
     </style>
   </head>
+
   <body>
-    <!-- INSTRUCTIONS -->
-    <!-- TO DO: Add markup to the following content so that it has the proper content structure -->
-    <!-- You will need to use the following tags: h1, h2, h3, p, ul, li, a, section, nav, header, footer, main, input, label, fieldset, select, form, table, thead, tobody, tfoot, tr, td, img  -->
-    <!-- The correct element appears ABOVE the text -->
-    <!-- You may remove the extra comments when you finish, but you don't need to -->
+    <h2>Site Header</h2> 
+
+    <p> Site title: City of Ottawa Random Data </p>
+    
+    <img
+    src="./images/house.png"
+    alt="house"
+    >
+    <h3>Site Menu</h3>
+      <ul>
+        <li><a href="https://example.com">Home</a></li>
+        <li><a href="https://example.com">About Us</a></li>
+        <li><a href="https://example.com">Contact</a></li>
+        <li><a href="https://example.com">© 2023</a></li>
+      </ul>
+  
+    
+    <h1>Random City of Ottawa Things</h1>
+    
+    <nav>
+    <h2>Table of contents</h2>
+
+    <ul>
+<li>Construction Summary for Q1 2023</li>
+<li>Wards</li>
+<li>Property Taxes</li>
+<li>Ward Councillor Evaluation Form</li>
+    </ul>
+    
+    <h2>Housing Construction Summary for Q1 2023</h2>
+    
+   <p>In Q1 2023, there were:</p> 
+    <ul>
+<li>2,716 dwellings granted land use permissions through Official Plan or Zoning By-law Amendments </li>
+<li>10 of which were not-for-profit dwellings </li>
+<li>4,621 dwellings approved through Plan of Subdivision, Plan of Condominium, Site Plan Control, Minor Variance, and Severance applications</li>
+<li>3,187 net dwellings issued building permits </li>
+<li>1,626 housing starts</li>
+<li>14,945 dwellings under construction</li>
+<li>579 of which are not-for-profit dwellings</li>
+<li>2,135 dwellings where construction was completed</li>
+    </ul>
+    
+    <h2>Wards</h2>
+    
+   <p>The City of Ottawa is divided into 24 wards. Each ward has a councillor who represents the residents of that ward. </p>
+    
+    <img
+    src="./images/ottawa-map.png"
+    alt="ottawa map"
+    >
+   <h2>Property Taxes</h2>
+    
+    <p>The City of Ottawa collects property taxes from residents to help pay for services such as roads, parks, and public transit. </p>
+    
+    <h3>Probing questions</h3>
+    
+    <p>Reviewing the data in the following table, answer the following questions:</p>
+    <ul>
+      <li>Which ward has the highest property tax revenue? </li>
+      <li>What is the total property tax revenue for the City of Ottawa? </li>
+      <li>What is the difference in size between the ward that collects the most property taxes and the ward that collects the least?</li>
+    </ul>
+
+   <h3>Ward specific data</h3>  
+    
+   <table>
+    <caption>Ward Ward Name Municipal Taxes Percent of Total</caption>
+    <thread>
+      <tr>
+        <th>Location</th>
+        <th>Data</th>
+
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <td>ORLÉANS EAST-CUMBERLAND</td>
+        <td>76,175,204 3.75%</td>
+      </tr>
+      <tr>
+        <td>ORLÉANS WEST-INNES</td>
+        <td>66,504,224 3.27%</td>
+      </tr>
+      <tr>
+        <td>BARRHAVEN WEST</td>
+        <td>89,847,966 4.42%</td>
+      </tr>
+      <tr> 
+        <td>KANATA NORTH</td>
+        <td>100,674,860 4.96%</td>
+      </tr>
+      <tr>
+        <td>WEST CARLETON-MARCH</td>
+        <td>41,848,481 2.06%</td>
+      </tr>
+      <tr> 
+        <td>Total citywide</td>
+        <td>2,030,973,981 100%</td>
+      </tr>
+    </tbody>
+   </table>
+    
+    <h2>Ward Councillor Evaluation Form</h2>
+    
+    <p>Rents too high? Not enough housing options in your neighbourhood. OCTranspo buses constantly late or not arriving at all. OTrain shut down again? Do you have to ride your bike on a sidewalk because the roads you use aren't comfortable and don't have a protected bike lane?</p> 
+    
+   <p>These are all examples of areas of responsibilities that fall to the city and to the mayor and local councillors. Let your councillor know what you think about the job they are doing. Fill out the form below to provide your feedback.</p>
+
+   <form action="/server-page-handling-from-data" method="post"> <h1>Personal Information</h1>
+   
+    <ul> 
+      <li> 
+    <label for="name">Name</label>
+    <input 
+    autocomplete="full-name"
+    required
+    minlength="2"
+    maxlength="10"
+    id="name"
+     type="text".
+     placeholder="Nigel Prescot" />
+      </li> 
+      <li> 
+     <label for="email">Email</label>
+
+     <input type="email". 
+     id="email"
+     placeholder="nigel.prescot@gmail.com"/>
+</li>
+<li>
+<label for="Phone">Phone</label>
+
+<input type="phone"
+id="phone"
+placeholder="613-123-4567" />
+</li>
+<li>
+     <fieldset>
+      <legend>Your message</legend>
+     
+     <label
+     for="message">Message</label>
+     <textarea 
+     maxlength="12"
+     rows="10"
+     id="message"></textarea>
+     </fieldset>
+     </li>
+     <li><button type="submit">Submit</button></li>
+    </ul>
+   </form>
+    
+    <h2>Site Footer</h2>
+    
+   <h3>Menu</h3>  
+    <ul>
+      <li><a href="https://example.com">Home</a></li>
+      <li><a href="https://example.com">About Us</a></li>
+      <li><a href="https://example.com">Contact</a></li>
+      <li><a href="https://example.com">© 2023</a></li>
+    </ul>
+    
   </body>
 </html>
