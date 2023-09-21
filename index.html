@@ -36,35 +36,38 @@
     alt="house"
     >
     <h3>Site Menu</h3>
-    <ul>
-      <li>- Home</li>
-      <li>- About Us</li>
-      <li>- Contact</li>
-    </ul>
+      <ul>
+        <li><a href="https://example.com">Home</a></li>
+        <li><a href="https://example.com">About Us</a></li>
+        <li><a href="https://example.com">Contact</a></li>
+        <li><a href="https://example.com">© 2023</a></li>
+      </ul>
   
     
     <h1>Random City of Ottawa Things</h1>
     
+    <nav>
     <h2>Table of contents</h2>
+
     <ul>
-<li>- Housing Construction Summary for Q1 2023</li>
-<li>- Wards</li>
-<li>- Property Taxes</li>
-<li>- Ward Councillor Evaluation Form</li>
+<li>Construction Summary for Q1 2023</li>
+<li>Wards</li>
+<li>Property Taxes</li>
+<li>Ward Councillor Evaluation Form</li>
     </ul>
     
     <h2>Housing Construction Summary for Q1 2023</h2>
     
    <p>In Q1 2023, there were:</p> 
     <ul>
-<li>- 2,716 dwellings granted land use permissions through Official Plan or Zoning By-law Amendments </li>
-<li>- 10 of which were not-for-profit dwellings </li>
-<li>    - 4,621 dwellings approved through Plan of Subdivision, Plan of Condominium, Site Plan Control, Minor Variance, and Severance applications</li>
-<li> - 3,187 net dwellings issued building permits </li>
-<li>- 1,626 housing starts</li>
-<li>- 14,945 dwellings under construction</li>
-<li> - 579 of which are not-for-profit dwellings</li>
-<li>- 2,135 dwellings where construction was completed</li>
+<li>2,716 dwellings granted land use permissions through Official Plan or Zoning By-law Amendments </li>
+<li>10 of which were not-for-profit dwellings </li>
+<li>4,621 dwellings approved through Plan of Subdivision, Plan of Condominium, Site Plan Control, Minor Variance, and Severance applications</li>
+<li>3,187 net dwellings issued building permits </li>
+<li>1,626 housing starts</li>
+<li>14,945 dwellings under construction</li>
+<li>579 of which are not-for-profit dwellings</li>
+<li>2,135 dwellings where construction was completed</li>
     </ul>
     
     <h2>Wards</h2>
@@ -83,9 +86,9 @@
     
     <p>Reviewing the data in the following table, answer the following questions:</p>
     <ul>
-      <li>- Which ward has the highest property tax revenue? </li>
-      <li>- What is the total property tax revenue for the City of Ottawa? </li>
-      <li>    - What is the difference in size between the ward that collects the most property taxes and the ward that collects the least?</li>
+      <li>Which ward has the highest property tax revenue? </li>
+      <li>What is the total property tax revenue for the City of Ottawa? </li>
+      <li>What is the difference in size between the ward that collects the most property taxes and the ward that collects the least?</li>
     </ul>
 
    <h3>Ward specific data</h3>  
@@ -133,43 +136,48 @@
     
    <p>These are all examples of areas of responsibilities that fall to the city and to the mayor and local councillors. Let your councillor know what you think about the job they are doing. Fill out the form below to provide your feedback.</p>
     
-    `form`
-    
-    Personal Information:
-    
-    Name:
-    
-    Email:
-    
-    Phone:
-    
-    Ward:
-    
-    - Options for Ward 1 - Ward 24
-    
-    Feedback:
-    
-    Subject/Topic:
-    
-    Feedback Type:
-    
-    Suggestion Concern Appreciation Feedback Details:
-    
-    Priority Level: Location (if applicable):
-    
-    Follow-up Information:
-    
-    I would like to receive a follow-up response.
-    
-    Preferred Contact Method:
-    
-    - Options for Email or Phone
-    
-    Submit Feedback:
-    
-    I consent to the use of my feedback.
-    
-    Submit Feedback `input type="submit"`
+   <h1>form</h1>
+
+   <form action="">
+    <fieldset>
+      <Legend>personal Information:</Legend>
+    </fieldset>
+    <label for="name">Name</label>
+    <input 
+    autocomplete="full-name"
+    required
+    minlength="2"
+    maxlength="10"
+    id="name"
+     type="text".
+     placeholder="Nigel Prescot" />
+
+     <label for="email">Email</label>
+
+     <input type="email". 
+     id="email"
+     placeholder="nigel.prescot@gmail.com"/>
+
+<label for="Phone">Phone</label>
+
+<input type="phone"
+id="phone"
+placeholder="613-123-4567" />
+
+     <fieldset>
+      <legend>Your message</legend>
+     </fieldset>
+     <label
+     for="message">Message</label>
+     <textarea 
+     maxlength="12"
+     rows="10"
+     id="message"></textarea>
+
+
+     <button type="submit">Submit</button>
+
+   </form>
     
     <h2>Site Footer</h2>
     
@@ -181,6 +189,5 @@
       <li><a href="https://example.com">© 2023</a></li>
     </ul>
     
-
   </body>
 </html>
